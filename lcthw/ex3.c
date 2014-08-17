@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main(){
-	int age=17;
-	int height=80;
+	int age = 17;
+	int height = 73;
 
 	printf("I am %d years old.\n", age);
 	printf("I am %d inches tall.\n", height);

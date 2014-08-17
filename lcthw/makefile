@@ -8,3 +8,4 @@ clean:
 	#deletes executable binary of the file ./ex*
 	rm -f ex1
 	rm -f ex3
+	rm -f ex5
