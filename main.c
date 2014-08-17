@@ -28,7 +28,5 @@ int main(){
 			break;
 	}
 */
- int x = 0;
-  printf("%p\n", (void *)&x);
 	return(0);
 }
