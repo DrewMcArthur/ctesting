@@ -1,15 +1,10 @@
-e:
-	#compiles and runs ex1.c, then deletes executable files after
+CFLAGS=-Wall -g
+all:
+	#compiles all files
 	cc ex1.c -o ex1
-	./ex1	
-	rm -f ex1
-
-debug:
-	#compiles, with verbose printing, executes function, and deletes executable file afterwards
-	cc -Wall -g ex1.c -o ex1
-	./ex1	
-	rm -f ex1
+	cc ex3.c -o ex3
 
 clean:
-	#deletes executable binary of the file ./ex1
+	#deletes executable binary of the file ./ex*
 	rm -f ex1
+	rm -f ex3
