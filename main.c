@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #define days_in_year 365
-enum days {sun=1, mon, tue, wed, thu, fri, sat};
 
 int main(){
 /*
